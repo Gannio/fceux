@@ -5978,6 +5978,8 @@ int FCEU_LoadLuaCode(const char *filename, const char *arg) {
 		lua_register(L, "SHIFT", bit_bshift_emulua);
 		lua_register(L, "BIT", bitbit);		
 
+		lua_register(L, "os", NULL);//Effectively prevents os class from operating.
+		
 		if (arg)
 		{
 			luaL_Buffer b;
