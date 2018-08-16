@@ -1,15 +1,15 @@
-# fceux [![Build status](https://ci.appveyor.com/api/projects/status/github/TASVideos/fceux?branch=master&svg=true)](https://ci.appveyor.com/project/zeromus/fceux)
+# fceux-Lite 
 
-An open source NES Emulator for Windows and Unix that features solid emulation accuracy and state of the art tools for power users. For some reason casual gamers use it too.
+This is a 'Lite' variant of fceux intended for real-time modifications of games through lua. It removes some lua's potentially dangerous commands, making it safer for consumers when developers wish to compile into luac instead of using a traditional lua file.
+
+This version removes the os commands from lua, making lua files unable to execute outside programs. However, it leaves the 'io' commands intact. While this allows developers to read and save from files, it also allows them to write to anywhere on the PC.
+
+All previous fceux lua scripts should be compatible with this one at the time of this writing, provided they don't use the above class(es).
+
+Other classes may be removed depending on whether they can be considered dangerous to the user's computer. If you feel there's a class that should be removed, submit a pull request!
+
+This fork of fceux is not endorsed by the developers the original fceux. Please support the official release!
 
 ## Builds and Releases
 
-win32 autobuilds @ https://ci.appveyor.com/project/zeromus/fceux/build/artifacts
-
-But you might like mesen more: https://github.com/SourMesen/Mesen 
-
-You should get releases from here: https://sourceforge.net/projects/fceultra/files/
-
-That's because github forces us to use tags we don't have for releases.
-
-2.2.3 is the most recent release but most people are using the autobuilds.
+FCEUX-Lite is still in development.
