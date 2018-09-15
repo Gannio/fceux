@@ -6,7 +6,7 @@ This version removes the os commands from lua, making lua files unable to execut
 
 All previous fceux lua scripts should be compatible with this one at the time of this writing, provided they don't use the above class(es).
 
-Other classes may be removed depending on whether they can be considered dangerous to the user's computer. If you feel there's a class that should be removed, submit a pull request!
+Other classes may be removed in the future depending on whether they can be considered dangerous to the user's computer. If you feel there's a class that should be removed, submit a pull request!
 
 This fork of fceux is not endorsed by the developers the original fceux. Please support the official release!
 
