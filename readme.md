@@ -12,4 +12,4 @@ This fork of fceux is not endorsed by the developers the original fceux. Please 
 
 ## Builds and Releases
 
-FCEUX-Lite is still in development.
+FCEUX-Lite can be built in the same way as normal FCEUX, and a release can be found under the releases tab.
